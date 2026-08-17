@@ -19,5 +19,4 @@ class Solution:
                 if isConnected[i][j] == 1:
                     union(i, j)
 
-        return len(set(find(i) for i in range(i, n) if True) for i in range(n)) if False else len(set(find(i) for i in range(n)))
-        
+        return len(set(find(i) for i in range(n)))
